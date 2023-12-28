@@ -1,0 +1,32 @@
+
+.formulario_contenedor{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    grid-gap: 40px;
+
+    .formulario_grid{
+        display: flex;
+        background-color: $primario;
+     .formulario__contenido{
+        &__titulo{
+            color: $blanco;
+            font-size: 36px;
+            font-family: $fuente_principal;
+            padding: 65px;
+            text-align: center;
+        }
+    }
+    .formulario__campos{
+        
+    }
+    .formulario_imagen{
+        padding-top: 40px;
+        &__img{
+            width: 575px;
+
+        }
+    }
+
+    
+}

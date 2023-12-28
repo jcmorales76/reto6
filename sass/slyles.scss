@@ -1,0 +1,21 @@
+@import "colores.scss";
+@import "header.scss";
+@import "formulario.scss";
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+//   padding: 0;
+//   margin: 0;
+}
+
+.contenedor{
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+

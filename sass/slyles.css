@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+.header_contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.header_contenedor img {
+  width: 300px;
+}
+.header_contenedor .menu {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  width: auto;
+}
+.header_contenedor .menu a {
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #000;
+}
+.header_contenedor .menu .menu__link--registro {
+  background-color: #e8505b;
+  padding: 12px 30px;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+.formulario_contenedor {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  grid-gap: 40px;
+}
+.formulario_contenedor .formulario_grid {
+  display: flex;
+  background-color: #e8505b;
+}
+.formulario_contenedor .formulario_grid .formulario__contenido__titulo {
+  color: #ffffff;
+  font-size: 36px;
+  font-family: "Roboto", sans-serif;
+  padding: 65px;
+  text-align: center;
+}
+.formulario_contenedor .formulario_imagen {
+  padding-top: 40px;
+}
+.formulario_contenedor .formulario_imagen__img {
+  width: 575px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.contenedor {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 60px;
+}/*# sourceMappingURL=slyles.css.map */
