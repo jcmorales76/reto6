@@ -1,21 +1,22 @@
-@import "colores.scss";
-@import "header.scss";
-@import "formulario.scss";
-
+@import "colores";
+@import "header";
+@import "formulario";
+@import "seleccion";
+@import "testimonio";
 
 *,
 *::before,
 *::after {
   box-sizing: border-box;
-//   padding: 0;
-//   margin: 0;
+  //   padding: 0;
+  //   margin: 0;
 }
-
-.contenedor{
-    width: 95%;
-    max-width: 1200px;
-    margin: 0 auto;
-    margin-top: 60px;
+body {
+  font-family: $fuente_principal;
 }
-
-
+.contenedor {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
